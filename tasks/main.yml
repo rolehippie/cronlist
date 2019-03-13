@@ -1,0 +1,7 @@
+- name: write executable
+  template:
+    src: cronlist.j2
+    dest: /usr/local/bin/cronlist
+    owner: root
+    group: root
+    mode: u=rwx,g=rwx,o=rx
