@@ -8,6 +8,10 @@ galaxy_info:
     versions:
     - xenial
     - bionic
+  - name: Debian
+  - name: openSUSE Leap
+  - name: CentOS
+  - name: MacOSX
   galaxy_tags:
   - cronlist
   - cron
