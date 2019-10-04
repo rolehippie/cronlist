@@ -1,9 +1,9 @@
 - name: write executable
   template:
     src: cronlist.j2
-    dest: /usr/bin/cronlist
-    owner: root
-    group: root
+    dest: '{{ cronlist_destination }}'
+    owner: '{{ cronlist_owner }}'
+    group: '{{ cronlist_group }}'
     mode: u=rwx,g=rwx,o=rx
   tags:
     - cronlist

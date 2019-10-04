@@ -1,0 +1,3 @@
+cronlist_destination: /usr/bin/cronlist
+cronlist_owner: root
+cronlist_group: root
