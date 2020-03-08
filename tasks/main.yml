@@ -1,9 +1,13 @@
-- name: write executable
+# Standards: 0.1
+---
+- name: Write executable script
   template:
-    src: cronlist.j2
-    dest: '{{ cronlist_destination }}'
-    owner: '{{ cronlist_owner }}'
-    group: '{{ cronlist_group }}'
+    src: script.j2
+    dest: "{{ cronlist_destination }}"
+    owner: "{{ cronlist_owner }}"
+    group: "{{ cronlist_group }}"
     mode: u=rwx,g=rwx,o=rx
   tags:
     - cronlist
+
+...
