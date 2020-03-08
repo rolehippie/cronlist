@@ -13,4 +13,3 @@ def test_script_file(host):
     assert file.user == "root"
     assert file.group == "root"
     assert file.mode == 0o775
-
