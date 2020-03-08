@@ -1,30 +1,61 @@
 # cronlist
 
-TBD
+[![Build Status](https://cloud.drone.io/api/badges/rolehippie/cronlist/status.svg)](https://cloud.drone.io/rolehippie/cronlist)
 
+Ansible role to configure cronlist
 
-## Security
+## Table of content
 
-If you find a security issue please contact thomas@webhippie.de first.
+* [Default Variables](#default-variables)
+  * [cronlist_destination](#cronlist_destination)
+  * [cronlist_group](#cronlist_group)
+  * [cronlist_owner](#cronlist_owner)
+* [Dependencies](#dependencies)
+* [License](#license)
+* [Author](#author)
 
+---
 
-## Contributing
+## Default Variables
 
-Fork -> Patch -> Push -> Pull Request
+### cronlist_destination
 
+Destination for executable
 
-## Authors
+#### Default value
 
-* [Thomas Boerger](https://github.com/tboerger)
+```YAML
+cronlist_destination: /usr/bin/cronlist
+```
 
+### cronlist_group
+
+Group for the executable
+
+#### Default value
+
+```YAML
+cronlist_group: root
+```
+
+### cronlist_owner
+
+User for the executable
+
+#### Default value
+
+```YAML
+cronlist_owner: root
+```
+
+## Dependencies
+
+None.
 
 ## License
 
 Apache-2.0
 
+## Author
 
-## Copyright
-
-```
-Copyright (c) 2018 Thomas Boerger <thomas@webhippie.de>
-```
+Thomas Boerger
