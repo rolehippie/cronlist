@@ -1,4 +1,4 @@
-# work
+# cronlist
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/cronlist) [![Testing Build](https://github.com/rolehippie/cronlist/workflows/testing/badge.svg)](https://github.com/rolehippie/cronlist/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/cronlist/workflows/readme/badge.svg)](https://github.com/rolehippie/cronlist/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/cronlist/workflows/galaxy/badge.svg)](https://github.com/rolehippie/cronlist/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/cronlist)](https://github.com/rolehippie/cronlist/blob/master/LICENSE) 
 
