@@ -1,6 +1,6 @@
 ---
 - name: Write executable script
-  template:
+  ansible.builtin.template:
     src: script.j2
     dest: "{{ cronlist_destination }}"
     owner: "{{ cronlist_owner }}"
